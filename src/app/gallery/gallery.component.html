@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="buttons">
+  </div>
+  <ul class="thumbnailsList">
+    <li *ngFor="let image of visibleImages">
+      <a [routerLink]="['/image', image.id]">
+        <img src="{{image.urls.small}}" class="thumbnail" width="400" height="300">
+        <div class="caption">
+          <span class="author">{{image.user.name}}</span>
+          <span class="location">{{image.user.location}}</span>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>

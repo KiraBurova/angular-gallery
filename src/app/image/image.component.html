@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-12">
+    <div [ngStyle]="{'background-image':'url('+image.urls.full+'.jpeg)'}" [style.backgroundColor]='image.color' class="image-container">
+    </div>
+    <div class="caption">
+      <span class="author">{{image.user.name}}</span>
+      <span class="location">{{image.user.location}}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+ul {
+  padding: 0;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+  cursor: pointer;
+  position: relative;
+}
+
+.thumbnail {
+  margin: 6px;
+}

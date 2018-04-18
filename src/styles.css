@@ -1,0 +1,25 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #efefef;
+}
+
+.main-content {
+  padding-top: 60px;
+  color: #333;
+}
+
+.caption {
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+  margin: 5px;
+  padding-left: 6px;
+  background: #fff;
+  height: 40px;
+  width: 95%;
+  color: #000;
+}
+
+.author, .location {
+  display: block;
+}
